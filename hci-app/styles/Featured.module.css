@@ -1,0 +1,37 @@
+/*tu se nalaze strlice i slike*/
+.container{
+height:calc(100vh - 100px);
+background-color: #d1411e;
+overflow:hidden;
+
+}
+
+/*stil za strelice*/
+.arrowContainer{
+
+    position:absolute;
+    width:100px;
+    height:100px;
+    top:0;
+    bottom:0;
+    margin:auto;
+    cursor:pointer;
+    z-index: 2;
+}
+
+/*sadrži sve fetured images(slike pizza)*/
+.wrapper{
+width:300vw;
+height:100%;
+display:flex;
+transition: all 1.5s ease-in-out;
+}
+
+/*ubacia san tri slike->slobodno ih promini-napravia san to samo da vidim jel sve ok*/
+
+.imgContainer{
+    width:100vw;
+    height:100%;
+    position:relative;
+
+}
