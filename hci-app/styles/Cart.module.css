@@ -20,6 +20,7 @@
   .table {
     width: 100%;
     border-spacing: 20px;
+    text-align: left;
   }
 
   .name {
@@ -46,7 +47,7 @@
   }
 
   .totalTextTitle{
-    margin-right: 200px;
+    margin-right: 10px;
   }
 
   .button {
@@ -56,3 +57,5 @@
     cursor: pointer;
     margin-top: 20px;
   }
+
+  

@@ -1,5 +1,5 @@
+import styles from "../styles/Cart.module.css";
 import Image from "next/image";
-import styles from "../styles/Product.module.css"
 
 const cart =()=>{
     return(
@@ -20,7 +20,7 @@ const cart =()=>{
                         <tr>
                             <td>
                                 <div className={styles.imgContainer}>
-                                        <Image src="/img/pizza.png"  height={50} width={50} objectFit="cover" alt=""/>
+                                        <Image src="/img/pizza.png"  layout="fill" objectFit="cover" alt=""/>
                                 </div>
                             </td>
                             <td>
@@ -46,13 +46,13 @@ const cart =()=>{
                 <div className={styles.wrapper}>
                     <h2 className={styles.title}>CART TOTAL</h2>
                     <div className={styles.totalText}>
-                        <b className={styles.totalTextTitle}>Podukupno</b>20e
+                        <b className={styles.totalTextTitle}>Podukupno:</b>20e
                     </div>
                     <div className={styles.totalText}>
-                        <b className={styles.totalTextTitle}>Popust</b>0.00
+                        <b className={styles.totalTextTitle}>Popust:</b>0.00
                     </div>
                     <div className={styles.totalText}>
-                        <b className={styles.totalTextTitle}>Ukupno</b>20e
+                        <b className={styles.totalTextTitle}>Ukupno:</b>20e
                     </div>
                     <button className={styles.button}>PLATI</button>
                 </div>
