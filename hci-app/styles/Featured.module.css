@@ -3,7 +3,7 @@
 height:calc(100vh - 100px);
 background-color: #d1411e;
 overflow:hidden;
-
+position:relative;
 }
 
 /*stil za strelice*/
@@ -34,4 +34,15 @@ transition: all 1.5s ease-in-out;
     height:100%;
     position:relative;
 
+}
+
+
+@media screen and (max-width:480px) {
+    .container{
+        height: 50vh;
+    }
+
+    .arrowContainer{
+        height: 60px;
+    }
 }

@@ -7,17 +7,39 @@ const cart =()=>{
             <div className={styles.left}>
                 <table className={styles.table}>
                   <thead> 
-                            <tr className={styles.tr}>
+                            <tr className={styles.trTitle}>
                                 <th>Proizvod</th>
                                 <th>Naziv</th>
-                                <th>Dodaci</th>
+                                <th>Prilozi</th>
                                 <th>Cijena</th>
                                 <th>Kolicina</th>
                                 <th>Ukupno</th>
                             </tr>
                     </thead> 
                     <tbody>
-                        <tr>
+                        <tr className={styles.tr}>
+                            <td>
+                                <div className={styles.imgContainer}>
+                                        <Image src="/img/pizza.png"  layout="fill" objectFit="cover" alt=""/>
+                                </div>
+                            </td>
+                            <td>
+                                <span className={styles.name}>CORALZO</span>
+                            </td>
+                            <td>
+                                <span className={styles.extras}>Ljuti umak</span>
+                            </td>
+                            <td>
+                                <span className={styles.price}>10e</span>
+                            </td>
+                            <td>
+                                <span className={styles.quantity}>2</span>
+                            </td>
+                            <td>
+                                <span className={styles.total}>20e</span>
+                            </td>
+                        </tr>
+                        <tr className={styles.tr}>
                             <td>
                                 <div className={styles.imgContainer}>
                                         <Image src="/img/pizza.png"  layout="fill" objectFit="cover" alt=""/>
