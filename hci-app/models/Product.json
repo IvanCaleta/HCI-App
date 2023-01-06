@@ -1,0 +1,24 @@
+[
+  {
+  "_id":"61caebf10322c118bc46d125", 
+  "title":"pizza1",
+  "img":"/img/pizza.png",
+  "desc":"desc1",
+  "prices":[12,13,14],
+  "extraOption":[{
+    "text":"Garlic sauce",
+    "price":2
+  }]
+},
+{
+  "_id":"61caebf10322c118bc46d126", 
+  "title":"pizza2",
+  "img":"/img/pizza.png",
+  "desc":"desc2",
+  "prices":[12,13,14],
+  "extraOption":[{
+    "text":"Spicy sauce",
+    "price":3
+  }]
+}
+]
