@@ -1,11 +1,32 @@
 import styles from "../styles/Cart.module.css";
 import Image from "next/image";
 import {useDispatch,useSelector} from "react-redux"
+import axios from "axios"
+import {useRouter} from"next/router"
+import {reset} from "../redux/cartSlice"
+import { useState } from "react";
+import OrderDetail from "../components/OrderDetail";
 
 const cart =()=>{
     const dispatch=useDispatch()
+    const[cash,setCash]=useState(false)
     const cart=useSelector(state=>state.cart)
+    const router=useRouter()
+    
 
+    const createOrder=async(data)=>{
+
+        try {
+            const res=await axios.post("http://localhost:3000/api/orders",data)
+            console.log('cccc',res.data)
+            if(res.status===201){
+            router.push("/orders")
+            dispatch(reset())
+            }
+        } catch (error) {
+            console.log(error)
+        }
+    }
     return(
         <div className={styles.container}>
             <div className={styles.left}>
@@ -65,10 +86,12 @@ const cart =()=>{
                     <div className={styles.totalText}>
                         <b className={styles.totalTextTitle}>Total:</b>{cart.total}e
                     </div>
-                    <button className={styles.button}>CHECKOUT</button>
+                    <button className={styles.button} onClick={()=>setCash(true)}>CHECKOUT</button>
                 </div>
             </div>
-
+        {cash&&(
+            <OrderDetail total={cart.total} createOrder={createOrder}/>
+        )}
         </div>
     );
 };

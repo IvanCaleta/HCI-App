@@ -71,6 +71,7 @@
 .listItem{
     margin:20px;
     font-weight:500;
+    cursor: pointer;
 }
 
 /*pronaći bolju sliku za cart !*/
