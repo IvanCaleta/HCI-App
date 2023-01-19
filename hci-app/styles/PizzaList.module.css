@@ -19,6 +19,30 @@
     flex-wrap: wrap;
 }
 
+.title2{
+    margin-top:60px;
+}
+
+.botun{
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 220px;
+    height: 80px;
+    border:none;
+    border-radius: 10px;
+    color: white;
+    background-color:#D1411e;
+}
+.botun p{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.botun:hover{
+    transform: scale(1.1);
+}
+
 
 @media screen and (max-width:480px) {
    .title{

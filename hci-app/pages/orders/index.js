@@ -82,15 +82,15 @@ const Order = ({order})=>{
             <div className={styles.wrapper}>
                     <h2 className={styles.title}>CART TOTAL</h2>
                     <div className={styles.totalText}>
-                        <b className={styles.totalTextTitle}>Podukupno:</b>20e
+                        <b className={styles.totalTextTitle}>Subtotal:</b>20e
                     </div>
                     <div className={styles.totalText}>
-                        <b className={styles.totalTextTitle}>Popust:</b>0.00
+                        <b className={styles.totalTextTitle}>Discount:</b>0.00
                     </div>
                     <div className={styles.totalText}>
-                        <b className={styles.totalTextTitle}>Ukupno:</b>20e
+                        <b className={styles.totalTextTitle}>Total:</b>20e
                     </div>
-                    <button disabled className={styles.button}>PLACENO</button>
+                    <button disabled className={styles.button}>SUCCESSFULY PAID</button>
                 </div>
             </div>
            

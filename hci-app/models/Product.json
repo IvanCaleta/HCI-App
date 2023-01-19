@@ -1,9 +1,9 @@
 [
   {
   "_id":"61caebf10322c118bc46d125", 
-  "title":"pizza1",
+  "title":"PIZZA",
   "img":"/img/pizza.png",
-  "desc":"desc1",
+  "desc":"Pizza",
   "prices":[12,13,14],
   "extraOption":[{
     "_id":"62caebf10322c118bc46d125",
@@ -13,14 +13,38 @@
 },
 {
   "_id":"61caebf10322c118bc46d126", 
-  "title":"pizza2",
-  "img":"/img/pizza.png",
-  "desc":"desc2",
+  "title":"CHEESEBURGER",
+  "img":"/img/chiiz.png",
+  "desc":"Cheeseburger",
   "prices":[12,13,14],
   "extraOption":[{
     "_id":"62caebf10322c118bc46d126",
     "text":"Spicy sauce",
     "price":3
   }]
-}
+},
+{
+"_id":"61caebf10322c118bc46d127", 
+"title":"NUGGETS",
+"img":"/img/nuggets.png",
+"desc":"Nuggets",
+"prices":[12,13,14],
+"extraOption":[{
+  "_id":"62caebf10322c118bc46d126",
+  "text":"Ketchup",
+  "price":3
+}]
+},
+{
+  "_id":"61caebf10322c118bc46d128", 
+  "title":"FRENCH FRIES",
+  "img":"/img/fries.png",
+  "desc":"Fries",
+  "prices":[12,13,14],
+  "extraOption":[{
+    "_id":"62caebf10322c118bc46d126",
+    "text":"Ketchup",
+    "price":3
+  }]
+  }
 ]

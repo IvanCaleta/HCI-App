@@ -9,6 +9,10 @@
     cursor: pointer;
     }
 
+    .container:hover{
+        transform: scale(1.15);
+    }
+
     .title{
         font-size:18px;
         font-weight: bold;
@@ -32,12 +36,14 @@
     .container{
        width: 100%;
     }
-
+    
     .title{
         font-size: 30px;
+      
     }
 
     .price,.desc{
         font-size: 25px;
+       
     }
 }
