@@ -1,12 +1,12 @@
 [
   {
-    "_id":"63caebf10322c118bc46d125", 
+    "_id":"1", 
     "customer":"Ivan",
     "address":"Trogir",
     "total":3
   },
   {
-    "_id":"63caebf10322c118bc46d126", 
+    "_id":"2", 
     "customer":"Ivo",
     "address":"Trogir",
     "total":2

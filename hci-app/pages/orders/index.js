@@ -19,7 +19,7 @@ const Order = ({order})=>{
 <table className={styles.table}>
                   <thead> 
                             <tr className={styles.trTitle}>
-                                <th>Order ID</th>
+                                <th>Order Number</th>
                                 <th>Customer</th>
                                 <th>Address</th>
                                 <th>Ukupno</th>

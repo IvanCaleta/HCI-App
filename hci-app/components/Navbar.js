@@ -26,7 +26,9 @@ const Navbar=()=>{
                 <li className={styles.listItem} >Homepage</li>
             </Link>
                 <li className={styles.listItem} >Products</li>
+            <Link href="/menu" passHref>
                 <li className={styles.listItem} >Menu</li>
+                </Link>
                 <li className={styles.listItem} > <Link href="/" passHref>
                   <Image src="/img/tastyy.png" alt="" width="110" height="110" />
                 </Link></li>

@@ -10,9 +10,7 @@ const  PizzaCard=({pizza})=>{
         </Link>
         <h1 className={styles.title}>{pizza.title} </h1>
         <span className={styles.price}>{pizza.prices[0]}e</span>
-        <p className={styles.desc}>
-            {pizza.desc}
-        </p>
+     
         </div>
     )
 

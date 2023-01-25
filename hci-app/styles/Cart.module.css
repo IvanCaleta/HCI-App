@@ -44,6 +44,7 @@
     flex-direction: column;
     justify-content: space-between;
     color: white;
+    border-radius: 15px;
   }
 
   .totalTextTitle{
@@ -51,11 +52,13 @@
   }
 
   .button {
+    border-radius: 10px;
     height: 30px;
-    color: #d1411e;
+    color: #008080;
     font-weight: bold;
     cursor: pointer;
     margin-top: 20px;
+    font-weight: bolder;
   }
 
   .button:hover{
@@ -85,7 +88,8 @@
    }
 
    .tr{
-    background-color:lightgray;
+    padding: 15px;
+    border: 1px solid lightgray;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -33,13 +33,66 @@ transition: all 1.5s ease-in-out;
     width:100vw;
     height:100%;
     position:relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 
 }
+
+.welcome{
+    color: white;
+    width:450px;
+    height: 550px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 50px;
+
+}
+
+.welcome h1{
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+.welcome p{
+    margin-top: 70px;
+    color: #EED1D1;
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.welcome button{
+    margin-top: 30px;
+    height:90px;
+    width: 300px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 40px;
+    color: #D1411E;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.welcome button:hover{
+    transform: scale(1.1);
+}
+
 
 
 @media screen and (max-width:480px) {
     .container{
         height: 50vh;
+    }
+    
+    .image{
+        height: 400px;
+        width: 300px;
+    }
+
+    .welcome{
+        display: none;
     }
 
     .arrowContainer{

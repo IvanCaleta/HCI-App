@@ -1,7 +1,7 @@
 import styles from "../styles/Featured.module.css"
 import Image from "next/image";
 import { useState } from "react";
-
+import Link from "next/link"
 
 const Featured=()=>{
 
@@ -24,8 +24,6 @@ const Featured=()=>{
         }
     }
 
-    console.log(index);
-
     return(
 
         <div className={styles.container}>
@@ -33,17 +31,25 @@ const Featured=()=>{
         <div className={styles.arrowContainer} style={{left:0}} onClick={()=>handleArrow("l")}>
         <Image src="/img/arrowl.png" alt="" layout='fill' objectFit="contain" />
         </div>
-      
+     
       <div className={styles.wrapper} style={{transform:`translateX(${-100*index}vw)`}}>
-      <div></div>
+   
       
-        {images.map((img, i)=>(
+      {images.map((img, i)=>(
             <div className={styles.imgContainer} key={i}>
-             <Image src={img}  alt="" layout='fill' objectFit="contain" />
+                <div className={styles.welcome}>
+                <h1>WELCOME</h1>
+                <p>Whether you're in a hurry or looking for a quick and satisfying meal, Tasty bites is the perfect destination. Come and enjoy a cozy and casual dining experience with us, where you feel like family, or give us a call.  </p>
+                <Link href="/menu" passHref><button>ORDER NOW</button></Link>
+                </div>
+                <div className={styles.slika}>
+             <Image className={styles.image} src={img}  alt="" width={800} height={800} />
+             </div>
              </div>
         ))}
       
       </div>
+      
       <div className={styles.arrowContainer} style={{right:0}} onClick={()=>handleArrow("r")}>
       <Image src="/img/arrowr.png"  alt="" layout='fill' objectFit="contain"/>
       </div>

@@ -1,7 +1,7 @@
 import styles from "../styles/PizzaList.module.css"
 import Image from "next/image";
 import PizzaCard from "./PizzaCard";
-
+import Link from "next/link";
 
 const  PizzaList=({pizzaList})=>{
     return (
@@ -17,7 +17,7 @@ const  PizzaList=({pizzaList})=>{
             <PizzaCard key={pizza._id} pizza={pizza}/>
         ))}
          </div>
-        <button className={styles.botun}><p>MENU</p></button>
+        <Link href="/menu" passHref><button className={styles.botun}><p>MENU</p></button></Link>
         </div>
     )
 
