@@ -70,7 +70,7 @@ const Product = ({pizza}) => {
              
              <h3 className={styles.choose}>Choose additional ingridients </h3>
             <div className={styles.ingredients}>
-              {pizza.extraOption.map(option=>(
+              {pizza.extraOptions.map(option=>(
                 <div className={styles.option} key={option._id}>
                     <input 
                     type="checkbox" 
