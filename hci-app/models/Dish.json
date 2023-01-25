@@ -1,0 +1,50 @@
+[
+    {
+        "_id":"61caebf10322c118bc46d128", 
+        "title":"FRIES",
+        "img":"/img/fries.png",
+        "desc":"Cheeseburger",
+        "prices":[12,13,14],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d126",
+          "text":"Spicy sauce",
+          "price":3
+        }]
+      },
+      {
+        "_id":"61caebf10322c118bc46d141", 
+        "title":"RICE",
+        "img":"/img/fries.png",
+        "desc":"Cheeseburger",
+        "prices":[12,13,14],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d126",
+          "text":"Spicy sauce",
+          "price":3
+        }]
+      },
+      {
+        "_id":"61caebf10322c118bc46d142", 
+        "title":"SPAGHETTI BOLOGNESE",
+        "img":"/img/fries.png",
+        "desc":"Cheeseburger",
+        "prices":[12,13,14],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d126",
+          "text":"Spicy sauce",
+          "price":3
+        }]
+      },
+      {
+        "_id":"61caebf10322c118bc46d143", 
+        "title":"SALAD",
+        "img":"/img/fries.png",
+        "desc":"Cheeseburger",
+        "prices":[12,13,14],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d126",
+          "text":"Spicy sauce",
+          "price":3
+        }]
+      }
+]

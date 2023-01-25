@@ -1,0 +1,50 @@
+[
+    {
+        "_id":"61caebf10322c118bc46d126", 
+        "title":"CHEESEBURGER",
+        "img":"/img/chiiz.png",
+        "desc":"Cheeseburger",
+        "prices":[12,13,14],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d126",
+          "text":"Spicy sauce",
+          "price":3
+        }]
+      },
+      {
+        "_id":"61caebf10322c118bc46d133", 
+        "title":"BACON BURGER",
+        "img":"/img/chiiz.png",
+        "desc":"Cheeseburger",
+        "prices":[12,13,14],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d126",
+          "text":"Spicy sauce",
+          "price":3
+        }]
+      },
+      {
+        "_id":"61caebf10322c118bc46d134", 
+        "title":"HAMBURGER",
+        "img":"/img/chiiz.png",
+        "desc":"Cheeseburger",
+        "prices":[12,13,14],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d126",
+          "text":"Spicy sauce",
+          "price":3
+        }]
+      },
+      {
+        "_id":"61caebf10322c118bc46d135", 
+        "title":"CHICKEN BURGER",
+        "img":"/img/chiiz.png",
+        "desc":"Cheeseburger",
+        "prices":[12,13,14],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d126",
+          "text":"Spicy sauce",
+          "price":3
+        }]
+      }
+]

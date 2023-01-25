@@ -1,0 +1,195 @@
+[
+    {
+        "_id":"61caebf10322c118bc46d126", 
+        "title":"CHEESEBURGER",
+        "img":"/img/chiiz.png",
+        "desc":"Cheeseburger",
+        "prices":[12,13,14],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d126",
+          "text":"Spicy sauce",
+          "price":3
+        }]
+      },
+      {
+        "_id":"61caebf10322c118bc46d133", 
+        "title":"BACON BURGER",
+        "img":"/img/chiiz.png",
+        "desc":"Cheeseburger",
+        "prices":[12,13,14],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d126",
+          "text":"Spicy sauce",
+          "price":3
+        }]
+      },
+      {
+        "_id":"61caebf10322c118bc46d134", 
+        "title":"HAMBURGER",
+        "img":"/img/chiiz.png",
+        "desc":"Cheeseburger",
+        "prices":[12,13,14],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d126",
+          "text":"Spicy sauce",
+          "price":3
+        }]
+      },
+      {
+        "_id":"61caebf10322c118bc46d135", 
+        "title":"CHICKEN BURGER",
+        "img":"/img/chiiz.png",
+        "desc":"Cheeseburger",
+        "prices":[12,13,14],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d126",
+          "text":"Spicy sauce",
+          "price":3
+        }]
+      },
+      {
+        "_id":"61caebf10322c118bc46d128", 
+        "title":"FRIES",
+        "img":"/img/fries.png",
+        "desc":"Cheeseburger",
+        "prices":[12,13,14],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d126",
+          "text":"Spicy sauce",
+          "price":3
+        }]
+      },
+      {
+        "_id":"61caebf10322c118bc46d141", 
+        "title":"RICE",
+        "img":"/img/fries.png",
+        "desc":"Cheeseburger",
+        "prices":[12,13,14],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d126",
+          "text":"Spicy sauce",
+          "price":3
+        }]
+      },
+      {
+        "_id":"61caebf10322c118bc46d142", 
+        "title":"SPAGHETTI BOLOGNESE",
+        "img":"/img/fries.png",
+        "desc":"Cheeseburger",
+        "prices":[12,13,14],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d126",
+          "text":"Spicy sauce",
+          "price":3
+        }]
+      },
+      {
+        "_id":"61caebf10322c118bc46d143", 
+        "title":"SALAD",
+        "img":"/img/fries.png",
+        "desc":"Cheeseburger",
+        "prices":[12,13,14],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d126",
+          "text":"Spicy sauce",
+          "price":3
+        }]
+      },
+      {
+        "_id":"61caebf10322c118bc46d127", 
+        "title":"NUGGETS",
+        "img":"/img/nuggets.png",
+        "desc":"Cheeseburger",
+        "prices":[12,13,14],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d126",
+          "text":"Spicy sauce",
+          "price":3
+        }]
+      },
+      {
+        "_id":"61caebf10322c118bc46d137", 
+        "title":"CHICKEN STRIPES",
+        "img":"/img/nuggets.png",
+        "desc":"Cheeseburger",
+        "prices":[12,13,14],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d126",
+          "text":"Spicy sauce",
+          "price":3
+        }]
+      },
+      {
+        "_id":"61caebf10322c118bc46d138", 
+        "title":"CHICKEN WINGS",
+        "img":"/img/nuggets.png",
+        "desc":"Cheeseburger",
+        "prices":[12,13,14],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d126",
+          "text":"Spicy sauce",
+          "price":3
+        }]
+      },
+      {
+        "_id":"61caebf10322c118bc46d139", 
+        "title":"CHICKEN BREAST",
+        "img":"/img/nuggets.png",
+        "desc":"Cheeseburger",
+        "prices":[12,13,14],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d126",
+          "text":"Spicy sauce",
+          "price":3
+        }]
+      },
+      {
+        "_id":"61caebf10322c118bc46d125", 
+        "title":"PIZZA",
+        "img":"/img/pizza.png",
+        "desc":"Pizza",
+        "prices":[12,13,14],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d125",
+          "text":"Garlic sauce",
+          "price":2
+        }]
+        },
+        {
+            "_id":"61caebf10322c118bc46d129", 
+            "title":"PIZZA MARGHERITA",
+            "img":"/img/pizza.png",
+            "desc":"Pizza",
+            "prices":[15,16,17],
+            "extraOption":[{
+              "_id":"62caebf10322c118bc46d125",
+              "text":"Garlic sauce",
+              "price":2
+            }]
+         },
+         {
+            "_id":"61caebf10322c118bc46d130", 
+            "title":"MUSHROOM PIZZA",
+            "img":"/img/pizza.png",
+            "desc":"Pizza",
+            "prices":[17,18,19],
+            "extraOption":[{
+              "_id":"62caebf10322c118bc46d125",
+              "text":"Garlic sauce",
+              "price":2
+            }]
+            },
+            {
+                "_id":"61caebf10322c118bc46d131", 
+                "title":"TOMATO PIZZA",
+                "img":"/img/pizza.png",
+                "desc":"Pizza",
+                "prices":[20,21,22],
+                "extraOption":[{
+                  "_id":"62caebf10322c118bc46d125",
+                  "text":"Garlic sauce",
+                  "price":2
+                }]
+                }
+    
+]

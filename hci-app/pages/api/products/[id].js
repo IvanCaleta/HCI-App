@@ -2,7 +2,7 @@ export default async function handler(req, res) {
     const method=req.method
     const id=req.query.id
   
-    const products=require('../../../models/Product.json')
+    const products=require('../../../models/allFood.json')
     const product = products.find(prod=>prod._id===id)
     if(method==='GET'){
          try {

@@ -1,0 +1,50 @@
+[
+    {
+        "_id":"61caebf10322c118bc46d127", 
+        "title":"NUGGETS",
+        "img":"/img/nuggets.png",
+        "desc":"Cheeseburger",
+        "prices":[12,13,14],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d126",
+          "text":"Spicy sauce",
+          "price":3
+        }]
+      },
+      {
+        "_id":"61caebf10322c118bc46d137", 
+        "title":"CHICKEN STRIPES",
+        "img":"/img/nuggets.png",
+        "desc":"Cheeseburger",
+        "prices":[12,13,14],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d126",
+          "text":"Spicy sauce",
+          "price":3
+        }]
+      },
+      {
+        "_id":"61caebf10322c118bc46d138", 
+        "title":"CHICKEN WINGS",
+        "img":"/img/nuggets.png",
+        "desc":"Cheeseburger",
+        "prices":[12,13,14],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d126",
+          "text":"Spicy sauce",
+          "price":3
+        }]
+      },
+      {
+        "_id":"61caebf10322c118bc46d139", 
+        "title":"CHICKEN BREAST",
+        "img":"/img/nuggets.png",
+        "desc":"Cheeseburger",
+        "prices":[12,13,14],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d126",
+          "text":"Spicy sauce",
+          "price":3
+        }]
+      }
+]

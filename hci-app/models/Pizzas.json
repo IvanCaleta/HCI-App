@@ -1,0 +1,51 @@
+[
+    {
+    "_id":"61caebf10322c118bc46d125", 
+    "title":"PIZZA",
+    "img":"/img/pizza.png",
+    "desc":"Pizza",
+    "prices":[12,13,14],
+    "extraOption":[{
+      "_id":"62caebf10322c118bc46d125",
+      "text":"Garlic sauce",
+      "price":2
+    }]
+    },
+    {
+        "_id":"61caebf10322c118bc46d129", 
+        "title":"PIZZA MARGHERITA",
+        "img":"/img/pizza.png",
+        "desc":"Pizza",
+        "prices":[15,16,17],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d125",
+          "text":"Garlic sauce",
+          "price":2
+        }]
+     },
+     {
+        "_id":"61caebf10322c118bc46d130", 
+        "title":"MUSHROOM PIZZA",
+        "img":"/img/pizza.png",
+        "desc":"Pizza",
+        "prices":[17,18,19],
+        "extraOption":[{
+          "_id":"62caebf10322c118bc46d125",
+          "text":"Garlic sauce",
+          "price":2
+        }]
+        },
+        {
+            "_id":"61caebf10322c118bc46d131", 
+            "title":"TOMATO PIZZA",
+            "img":"/img/pizza.png",
+            "desc":"Pizza",
+            "prices":[20,21,22],
+            "extraOption":[{
+              "_id":"62caebf10322c118bc46d125",
+              "text":"Garlic sauce",
+              "price":2
+            }]
+            }
+
+]
