@@ -16,8 +16,19 @@ export default async function handler(req, res) {
 
   if (method === "GET") {
     try {
-      const products = await Prod.find();
-      res.status(200).json(products);
+      const popular = await Prod.find({popular:1})
+      const pizzas= await Prod.find({category:"pizzas"})
+      const burgers= await Prod.find({category:"burgers"})
+      const chicken= await Prod.find({category:"chicken"})
+      const dish= await Prod.find({category:"dish"})
+
+      res.status(200).send({
+        popular:popular,
+        pizzas:pizzas,
+        burgers:burgers,
+        chicken:chicken,
+        dish:dish
+      });
     } catch (err) {
       res.status(500).json(err);
     }

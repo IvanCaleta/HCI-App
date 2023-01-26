@@ -1,7 +1,7 @@
 import { useState } from "react"
 import styles from "../styles/Modal.module.css"
 
-const Editorder=({editOrder})=>{
+const Editorder=({order,editOrder})=>{
     const [customer,setCustomer]=useState("")
     const [address,setAddress]=useState("")
     const handleClick=()=>{
@@ -13,12 +13,12 @@ const Editorder=({editOrder})=>{
                 <h1 className={styles.title}>Edit order</h1>
                 <div className={styles.item}>
                     <label className={styles.label}>Name</label>
-                    <input placeholder="Name" type="text"
+                    <input placeholder={order.customer} type="text"
                      className={styles.input}
                      onChange={(e)=>setCustomer(e.target.value)}/>
 
                       <label className={styles.label}>Address</label>
-                    <input placeholder="Address" type="text"
+                    <input placeholder={order.address} type="text"
                      className={styles.input}
                      onChange={(e)=>setAddress(e.target.value)}/>
 

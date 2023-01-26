@@ -9,10 +9,8 @@ const  PizzaCard=({pizza})=>{
             <Image src={pizza.img}alt="" width="300" height="300" />
         </Link>
         <h1 className={styles.title}>{pizza.title} </h1>
-        <span className={styles.price}>{pizza.prices[0]}e</span>
-        <p className={styles.desc}>
-            {pizza.desc}
-        </p>
+        <span className={styles.price}>{pizza.prices[0]}€</span>
+     
         </div>
     )
 

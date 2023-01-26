@@ -96,7 +96,7 @@ const Order = ({order})=>{
     </div>
     <button onClick={()=>deleteOrder()}>DELETE</button>
     <button onClick={()=>setEdit(true)}>EDIT</button>
-        {edit&&(<Editorder editOrder={editOrder}/>)}
+        {edit&&(<Editorder order={order} editOrder={editOrder}/>)}
 </div>
             </div>
             <div className={styles.right}>

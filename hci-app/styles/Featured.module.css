@@ -1,48 +1,101 @@
 /*tu se nalaze strlice i slike*/
 .container{
-height:calc(100vh - 100px);
-background-color: #d1411e;
-overflow:hidden;
-position:relative;
-}
-
-/*stil za strelice*/
-.arrowContainer{
-
-    position:absolute;
-    width:100px;
-    height:100px;
-    top:0;
-    bottom:0;
-    margin:auto;
-    cursor:pointer;
-    z-index: 2;
-}
-
-/*sadrži sve fetured images(slike pizza)*/
-.wrapper{
-width:300vw;
-height:100%;
-display:flex;
-transition: all 1.5s ease-in-out;
-}
-
-/*ubacia san tri slike->slobodno ih promini-napravia san to samo da vidim jel sve ok*/
-
-.imgContainer{
-    width:100vw;
-    height:100%;
+    height:calc(100vh - 100px);
+    background-color: #d1411e;
+    overflow:hidden;
     position:relative;
-
-}
-
-
-@media screen and (max-width:480px) {
-    .container{
-        height: 50vh;
     }
-
+    
+    /*stil za strelice*/
     .arrowContainer{
-        height: 60px;
+    
+        position:absolute;
+        width:100px;
+        height:100px;
+        top:0;
+        bottom:0;
+        margin:auto;
+        cursor:pointer;
+        z-index: 2;
     }
-}
+    
+    /*sadrži sve fetured images(slike pizza)*/
+    .wrapper{
+    width:300vw;
+    height:100%;
+    display:flex;
+    transition: all 1.5s ease-in-out;
+    }
+    
+    /*ubacia san tri slike->slobodno ih promini-napravia san to samo da vidim jel sve ok*/
+    
+    .imgContainer{
+        width:100vw;
+        height:100%;
+        position:relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+    
+    .welcome{
+        color: white;
+        width:450px;
+        height: 550px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 50px;
+    
+    }
+    
+    .welcome h1{
+        font-weight: bolder;
+        font-size: 70px;
+    }
+    
+    .welcome p{
+        margin-top: 70px;
+        color: #EED1D1;
+        font-size: 22px;
+        line-height: 1.5;
+        font-weight: bold;
+    }
+    
+    .welcome button{
+        margin-top: 30px;
+        height:90px;
+        width: 300px;
+        background-color: white;
+        border: none;
+        border-radius: 20px;
+        font-size: 40px;
+        color: #D1411E;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    
+    .welcome button:hover{
+        transform: scale(1.1);
+    }
+    
+    
+    
+    @media screen and (max-width:480px) {
+        .container{
+            height: 50vh;
+        }
+        
+        .image{
+            height: 400px;
+            width: 300px;
+        }
+    
+        .welcome{
+            display: none;
+        }
+    
+        .arrowContainer{
+            height: 60px;
+        }
+    }
