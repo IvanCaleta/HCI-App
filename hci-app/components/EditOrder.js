@@ -1,16 +1,16 @@
 import { useState } from "react"
 import styles from "../styles/Modal.module.css"
 
-const OrderDetail=({total,createOrder})=>{
+const Editorder=({editOrder})=>{
     const [customer,setCustomer]=useState("")
     const [address,setAddress]=useState("")
     const handleClick=()=>{
-        createOrder({customer,address,total})
+        editOrder({customer,address})
     }
     return (
         <div className={styles.container}>
             <div className={styles.wraper}>
-                <h1 className={styles.title}>Pay after delivery</h1>
+                <h1 className={styles.title}>Edit order</h1>
                 <div className={styles.item}>
                     <label className={styles.label}>Name</label>
                     <input placeholder="Name" type="text"
@@ -29,4 +29,4 @@ const OrderDetail=({total,createOrder})=>{
     )
 }
 
-export default OrderDetail
+export default Editorder

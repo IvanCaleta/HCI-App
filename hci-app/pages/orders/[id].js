@@ -1,10 +1,29 @@
 import styles from "../../styles/Order.module.css";
 import Image from "next/image";
 import axios from "axios"
+import Editorder from "../../components/EditOrder"
+import { useState } from "react";
 
 const Order = ({order})=>{
+    const[edit,setEdit]=useState(false)
+    const editOrder=async(data)=>{
+        try {
+            await axios.put(`http://localhost:3000/api/orders/${order._id}`,data)
+            window.location.reload()
+        } catch (error) {
+            console.log(error)
+        }
+    }
+    const deleteOrder=async(data)=>{
+        try {
+            await axios.delete(`http://localhost:3000/api/orders/${order._id}`)
+            window.location.reload()
+        } catch (error) {
+            console.log(error)
+        }
+    }
 
-    const status=0;
+    const status=order.status;
     const statusClass = (index) => {
        if(index-status <1) return styles.done
        if(index-status ===1)  return styles.inProgress
@@ -26,23 +45,23 @@ const Order = ({order})=>{
                             </tr>
                     </thead> 
                     <tbody>
-                           {order.map(ord=>(
-                        <tr className={styles.tr} key={ord._id}>
+                           
+                        <tr className={styles.tr} key={order._id}>
 
                                <td>
-                                <span className={styles.id}>{ord._id}</span>
+                                <span className={styles.id}>{order._id}</span>
                             </td>
                             <td>
-                                <span className={styles.name}>{ord.customer}</span>
+                                <span className={styles.name}>{order.customer}</span>
                             </td>
                             <td>
-                                <span className={styles.address}>{ord.address}</span>
+                                <span className={styles.address}>{order.address}</span>
                             </td>
                             <td>
-                                <span className={styles.total}>{ord.total}e</span>
+                                <span className={styles.total}>{order.total}€</span>
                             </td>
                         </tr>
-                                ))}
+                                
                     </tbody>
                     </table>
 </div>
@@ -75,20 +94,22 @@ const Order = ({order})=>{
        <Image  className={styles.checkedIcon} src="/img/checked.png" width={20} height={20} alt=""/>
        </div>
     </div>
-
+    <button onClick={()=>deleteOrder()}>DELETE</button>
+    <button onClick={()=>setEdit(true)}>EDIT</button>
+        {edit&&(<Editorder editOrder={editOrder}/>)}
 </div>
             </div>
             <div className={styles.right}>
             <div className={styles.wrapper}>
                     <h2 className={styles.title}>CART TOTAL</h2>
                     <div className={styles.totalText}>
-                        <b className={styles.totalTextTitle}>Subtotal:</b>20e
+                        <b className={styles.totalTextTitle}>Subtotal:</b>{order.total}€
                     </div>
                     <div className={styles.totalText}>
-                        <b className={styles.totalTextTitle}>Discount:</b>0.00
+                        <b className={styles.totalTextTitle}>Discount:</b>0.00€
                     </div>
                     <div className={styles.totalText}>
-                        <b className={styles.totalTextTitle}>Total:</b>20e
+                        <b className={styles.totalTextTitle}>Total:</b>{order.total}€
                     </div>
                     <button disabled className={styles.button}>SUCCESSFULY PAID</button>
                 </div>
@@ -100,7 +121,7 @@ const Order = ({order})=>{
 }
 
 export const getServerSideProps= async ({params})=>{
-    const res=await axios.get(`http://localhost:3000/api/orders/`)
+    const res=await axios.get(`http://localhost:3000/api/orders/${params.id}`)
     return{
       props:{
         order:res.data 

@@ -18,9 +18,8 @@ const cart =()=>{
 
         try {
             const res=await axios.post("http://localhost:3000/api/orders",data)
-            console.log('cccc',res.data)
             if(res.status===201){
-            router.push("/orders")
+            router.push(`/orders/${res.data._id}`)
             dispatch(reset())
             }
         } catch (error) {
@@ -61,13 +60,13 @@ const cart =()=>{
                                 </span>
                             </td>
                             <td>
-                                <span className={styles.price}>{prod.price}e</span>
+                                <span className={styles.price}>{prod.price}€</span>
                             </td>
                             <td>
                                 <span className={styles.quantity}>{prod.quantity}</span>
                             </td>
                             <td>
-                                <span className={styles.total}>{prod.quantity*prod.price}e</span>
+                                <span className={styles.total}>{prod.quantity*prod.price}€</span>
                             </td>
                         </tr>
                      ))}
@@ -78,13 +77,13 @@ const cart =()=>{
                 <div className={styles.wrapper}>
                     <h2 className={styles.title}>CART TOTAL</h2>
                     <div className={styles.totalText}>
-                        <b className={styles.totalTextTitle}>Subtotal</b>{cart.total}e
+                        <b className={styles.totalTextTitle}>Subtotal</b>{cart.total}€
                     </div>
                     <div className={styles.totalText}>
-                        <b className={styles.totalTextTitle}>Discount:</b>0.00
+                        <b className={styles.totalTextTitle}>Discount:</b>0.00€
                     </div>
                     <div className={styles.totalText}>
-                        <b className={styles.totalTextTitle}>Total:</b>{cart.total}e
+                        <b className={styles.totalTextTitle}>Total:</b>{cart.total}€
                     </div>
                     <button className={styles.button} onClick={()=>setCash(true)}>CHECKOUT</button>
                 </div>

@@ -20,6 +20,12 @@ const ProductSchema = new mongoose.Schema(
       type: [Number],
       required: true,
     },
+    popular:{
+      type:Number
+    },
+    category:{
+      type:String
+    },
     extraOptions: {
       type: [
         {

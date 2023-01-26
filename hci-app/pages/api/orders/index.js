@@ -1,10 +1,14 @@
+import Order from "../../../models/Order";
+import connectDB from "../../../util/mongo";
+
+connectDB()
+
 export default async function handler(req,res){
     const method=req.method
 
-    const orders=require('../../../models/Order.json')
-
     if(method==="GET"){
         try {
+            const orders=await Order.find()
             res.status(200).send(orders)
         } catch (error) {
             res.status(500).error(error)
@@ -12,9 +16,7 @@ export default async function handler(req,res){
     }
     if(method==="POST"){
         try {
-            console.log('aaa',req.body)
-            const order=req.body
-            orders.push(order)
+            const order=await Order.create(req.body)
             res.status(201).send(order)
         } catch (error) {
             res.status(500).error(error)
