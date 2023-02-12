@@ -24,7 +24,6 @@ const OrderDetail=({total,createOrder})=>{
         });
       };
     const handleClick=()=>{
-        submit()
         createOrder({_id,customer,address,total})
     }
     return (
