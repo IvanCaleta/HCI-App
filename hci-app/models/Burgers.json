@@ -14,9 +14,9 @@
       {
         "_id":"61caebf10322c118bc46d133", 
         "title":"BACON BURGER",
-        "img":"/img/chiiz.png",
+        "img":"/img/bacon.png",
         "desc":"Cheeseburger",
-        "prices":[12,13,14],
+        "prices":[13,13,14],
         "extraOption":[{
           "_id":"62caebf10322c118bc46d126",
           "text":"Spicy sauce",
@@ -26,7 +26,7 @@
       {
         "_id":"61caebf10322c118bc46d134", 
         "title":"HAMBURGER",
-        "img":"/img/chiiz.png",
+        "img":"/img/hamburger.png",
         "desc":"Cheeseburger",
         "prices":[12,13,14],
         "extraOption":[{
@@ -38,9 +38,9 @@
       {
         "_id":"61caebf10322c118bc46d135", 
         "title":"CHICKEN BURGER",
-        "img":"/img/chiiz.png",
+        "img":"/img/chickenburger.png",
         "desc":"Cheeseburger",
-        "prices":[12,13,14],
+        "prices":[14,15,16],
         "extraOption":[{
           "_id":"62caebf10322c118bc46d126",
           "text":"Spicy sauce",
