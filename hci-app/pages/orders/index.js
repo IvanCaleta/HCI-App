@@ -100,7 +100,7 @@ const Order = ({order})=>{
 }
 
 export const getServerSideProps= async ({params})=>{
-    const res=await axios.get(`http://testt-jet.vercel.app/api/orders/`)
+    const res=await axios.get(`http://tastybites-jet.vercel.app/api/orders/`)
     return{
       props:{
         order:res.data 
