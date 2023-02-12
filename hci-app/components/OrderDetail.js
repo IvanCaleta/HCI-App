@@ -4,7 +4,7 @@ import styles from "../styles/Modal.module.css"
 const OrderDetail=({total,createOrder})=>{
     const [customer,setCustomer]=useState("")
     const [address,setAddress]=useState("")
-    const _id="63caebf10322c118bc46d129"
+    const _id="3"
     const handleClick=()=>{
         createOrder({_id,customer,address,total})
     }
