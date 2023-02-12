@@ -58,7 +58,7 @@ const cart =()=>{
                                 </span>
                             </td>
                             <td>
-                                <span className={styles.price}>{prod.price}e</span>
+                                <span className={styles.price}>{prod.price}€</span>
                             </td>
                             <td>
                                 <span className={styles.quantity}>{prod.quantity}</span>
@@ -81,7 +81,7 @@ const cart =()=>{
                         <b className={styles.totalTextTitle}>Discount:</b>0.00
                     </div>
                     <div className={styles.totalText}>
-                        <b className={styles.totalTextTitle}>Total:</b>{cart.total}e
+                        <b className={styles.totalTextTitle}>Total:</b>{cart.total}€
                     </div>
                     <button className={styles.button} onClick={()=>setCash(true)}>CHECKOUT</button>
                 </div>
