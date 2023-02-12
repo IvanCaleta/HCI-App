@@ -17,11 +17,9 @@ const cart =()=>{
     const createOrder=async(data)=>{
 
         try {
-            const res=await axios.post("https://tastybites.vercel.app/api/orders",data)
-            if(res.status===201){
             router.push("/orders")
             dispatch(reset())
-            }
+            
         } catch (error) {
             console.log(error)
         }
