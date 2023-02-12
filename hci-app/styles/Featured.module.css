@@ -73,10 +73,12 @@ transition: all 1.5s ease-in-out;
     color: #D1411E;
     font-weight: bolder;
     cursor: pointer;
+    transition-duration: 0.5s;
 }
 
 .welcome button:hover{
     transform: scale(1.1);
+    transition-duration: 0.5s;
 }
 
 

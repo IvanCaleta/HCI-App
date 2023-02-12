@@ -49,10 +49,12 @@
 .botun p{
     font-size: 25px;
     font-weight: bolder;
+    transition-duration: 0.5s;
 }
 
 .botun:hover{
     transform: scale(1.1);
+    transition-duration: 0.5s;
 }
 
 

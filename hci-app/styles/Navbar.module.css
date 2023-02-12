@@ -73,20 +73,24 @@
     margin:20px 30px;
     font-weight:500;
     cursor: pointer;
+    transition-duration: 0.5s;
 }
 
 .listItem:hover{
     transform: scale(1.15);
+    transition-duration: 0.5s;
 }
 
 /*pronaći bolju sliku za cart !*/
 .cart{
     position:relative;
+    transition-duration: 0.5s;
 
 }
 
 .cart:hover{
     transform: scale(1.1);
+    transition-duration: 0.5s;
 }
 /*za brojač*/
 .counter{
