@@ -9,7 +9,7 @@ const dish= require('../models/Dish.json')
 const menu=()=>{
     return( 
     <div className={styles.container}>
-        <h1 className={styles.title}>MENU</h1>
+        <title><h1 className={styles.title}>MENU</h1></title>
             <button className={styles.button}>PIZZA</button>
         <div className={styles.wrapper}> 
                 {pizzas.map((pizza)=>(
