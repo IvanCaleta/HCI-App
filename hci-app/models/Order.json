@@ -4,12 +4,6 @@
     "customer":"Ivan",
     "address":"Trogir",
     "total":3
-  },
-  {
-    "_id":"2", 
-    "customer":"Ivo",
-    "address":"Trogir",
-    "total":2
   }
 
 ]

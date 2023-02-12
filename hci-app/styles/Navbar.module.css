@@ -76,6 +76,18 @@
     transition-duration: 0.5s;
 }
 
+.logoItem{
+    margin:20px 30px;
+    font-weight:500;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.logoItem:hover{
+    transform: scale(1.15);
+    transition-duration: 0.5s;
+}
+
 .listItem:hover{
     transform: scale(1.15);
     transition-duration: 0.5s;
@@ -110,11 +122,18 @@
 }
 
 @media screen  and (max-width:480px) {
-    .item:nth-child(2){
-        display:none;  
-    }
+   .callButton, .texts, .listItem{
+    display: none;
+   }
 
-    .item:nth-child(1){
-       flex:3; 
-    }
+   .logoItem{
+    position: relative;
+   }
+
+
+
+   .item:nth-child(2){
+    justify-self: start;
+   }
+
 }

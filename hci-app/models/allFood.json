@@ -158,7 +158,7 @@
         {
             "_id":"61caebf10322c118bc46d129", 
             "title":"PIZZA MARGHERITA",
-            "img":"/img/pizza.png",
+            "img":"/img/margherita.png",
             "desc":"Pizza",
             "prices":[15,16,17],
             "extraOption":[{

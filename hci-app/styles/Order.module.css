@@ -99,6 +99,7 @@ flex:2;
 
   .tr{
     margin-bottom: 40px;
+    border-radius:15px ;
     background-color: lightgray;
     display: flex;
     flex-direction: column;
