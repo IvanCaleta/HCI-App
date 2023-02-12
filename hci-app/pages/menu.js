@@ -10,11 +10,12 @@ const menu=()=>{
     return( 
     <div className={styles.container}>
         <h1 className={styles.title}>MENU</h1>
+
             <button className={styles.button}>PIZZA</button>
         <div className={styles.wrapper}> 
                 {pizzas.map((pizza)=>(
                     <PizzaCard key={pizza._id} pizza={pizza}/>
-                ))}
+                    ))}
         </div>
         <button className={styles.button}>BURGER</button>
         <div className={styles.wrapper}> 

@@ -70,17 +70,19 @@ position:relative;
 
 .number {
     position:absolute;
-    top:-21px;
-    right:-25px;
+    top:-26px;
+    right:-31px;
     background-color: teal;
     color:white;
     font-size:12px;
-    padding:0 5px;
+    padding:5px 10px;
     border-radius: 10px;
+    font-size: 12px;
 }
 
 .choose{
     margin-top:70px;
+    margin-bottom: 50px;
     font-size: 24px;
     color: #464342;
 

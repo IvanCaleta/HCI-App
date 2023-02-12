@@ -108,20 +108,20 @@
     }
 
     .price::before{
-        content: "Cijena: ";
+        content: "Price: ";
         font-weight: 500;
     }
     .quantity::before{
-      content: "Kolicina: ";
+      content: "Quantity: ";
       font-weight: 500;
   }
   .extras::before{
-    content: "Prilozi: ";
+    content: "Extras: ";
     font-weight: 500;
 }
 
 .total::before{
-  content: "Ukupno: ";
+  content: "Total: ";
   font-weight: 500;
 }
 
