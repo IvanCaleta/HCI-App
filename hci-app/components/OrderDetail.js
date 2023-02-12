@@ -31,7 +31,6 @@ const OrderDetail=({total,createOrder})=>{
         <div className={styles.container}>
             <div className={styles.wraper}>
                 <h1 className={styles.title}>Pay after delivery</h1>
-                <div>aa<CCloseButton white="false"/></div>
                 <div className={styles.item}>
                     <label className={styles.label}>Name</label>
                     <input placeholder="Name" type="text"
