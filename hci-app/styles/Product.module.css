@@ -38,7 +38,7 @@ position:relative;
 }
 
 .sizes{
-    margin-top: 20px;
+    margin-top: 18px;
     width:25%;
     display: flex;
     justify-content: space-between;
@@ -81,7 +81,7 @@ position:relative;
 }
 
 .choose{
-    margin-top:55px;
+    margin-top:50px;
     margin-bottom: 40px;
     font-size: 24px;
     color: #464342;
@@ -95,7 +95,7 @@ position:relative;
 }
 
 .add{
-    margin-top:50px;
+    margin-top:45px;
 }
 
 
