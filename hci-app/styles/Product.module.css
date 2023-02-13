@@ -42,6 +42,8 @@ position:relative;
     width:25%;
     display: flex;
     justify-content: space-between;
+    margin-right: 30px;
+
 }
 
 .size{
