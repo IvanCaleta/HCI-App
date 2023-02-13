@@ -192,3 +192,12 @@ position:relative;
         padding: 10px 15px;
     }
 }
+
+@media screen and (min-height:780px) {
+.choose{
+    margin-top: 30px;
+}
+.add{
+    margin-top: 50px;
+}
+}
